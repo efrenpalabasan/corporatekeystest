@@ -10,3 +10,8 @@ Steps on how to Install this Coding Exercise.
 3. Create database based on the supplied DB credentials "database"
 
 4. Load the initial table "items" on the migration/db.sql
+
+#Common Issues
+
+1. Ownership and file permission of the "uploads" directory 
+    run a "sudo chown www-data uploads/" and "chmod 755 uploads/"
