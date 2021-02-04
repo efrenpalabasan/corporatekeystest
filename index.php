@@ -128,7 +128,7 @@
  <script>
 
     function fetch_items() {  
-        var the_url = "/programs/programs.php?action=fetchItems"
+        var the_url = "./programs/programs.php?action=fetchItems"
         $('.content').html('');
 
         $.ajax({
@@ -147,7 +147,7 @@
     }
 
     function get_item(id) {  
-        var the_url = "/programs/programs.php?action=getItem"
+        var the_url = "./programs/programs.php?action=getItem"
 
         $.ajax({
             url: the_url,
@@ -188,7 +188,7 @@
                 fd.append('title',title);
 
                 $.ajax({
-                    url: '/programs/programs.php?action=saveItem',
+                    url: './programs/programs.php?action=saveItem',
                     dataType: 'json',
                     type: 'post',
                     data: fd,
@@ -216,7 +216,7 @@
         var id = $(this).data('id');
         if(confirm('Are you sure you want  to delete this item?')){
 
-            var the_url = "/programs/programs.php?action=deleteItem"
+            var the_url = "./programs/programs.php?action=deleteItem"
 
              $.ajax({
                    url: the_url,
