@@ -1,5 +1,4 @@
-# corporatekeystest
-codingexercise
+# Corporate Keys Coding Exercise
 
 
 Steps on how to Install this Coding Exercise. 
