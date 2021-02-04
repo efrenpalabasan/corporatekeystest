@@ -11,7 +11,7 @@ Steps on how to Install this Coding Exercise.
 
 4. Load the initial table "items" on the migration/db.sql
 
-5. I have uploaded a working copy here http://efrenpalabasan.com/corporatekeystest/
+* I have uploaded a working copy here http://efrenpalabasan.com/corporatekeystest/
 
 # Common Issues
 
